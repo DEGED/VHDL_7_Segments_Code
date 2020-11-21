@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.vhd" 2020/10/14.10:31:41 P.20131013
+EN work/Comp 1602690310 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Comp/Behavioral 1602690311 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.vhd" \
+      EN work/Comp 1602690310

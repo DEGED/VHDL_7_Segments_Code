@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 14 10:32:32 2020
+# Process ID: 1948
+# Log file: C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS25 [get_ports [list A1]]
+set_property iostandard LVTTL [get_ports [list A0]]
+set_property package_pin "" [get_ports [list  A0]]
+set_property iostandard LVTTL [get_ports [list A1]]
+set_property iostandard LVTTL [get_ports [list B0]]
+set_property iostandard LVTTL [get_ports [list B1]]
+set_property iostandard LVTTL [get_ports [list Igual]]
+set_property iostandard LVTTL [get_ports [list Mayor]]
+set_property iostandard LVTTL [get_ports [list Menor]]
+set_property pulltype PULLUP [get_ports [list Igual]]
+set_property pulltype PULLUP [get_ports [list Mayor]]
+set_property pulltype PULLUP [get_ports [list Menor]]
+set_property package_pin "" [get_ports [list  A0]]
+startgroup
+set_property package_pin N17 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports B0]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports B1]
+endgroup
+set_property package_pin "" [get_ports [list  Igual]]
+startgroup
+set_property package_pin D5 [get_ports Mayor]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports Igual]
+endgroup
+startgroup
+set_property package_pin F7 [get_ports Menor]
+endgroup
+save_constraints

@@ -1,0 +1,62 @@
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "Comp.ngc" Comp.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Comp_map.ncd Comp.ngd Comp.pcf 
+par -w -intstyle ise -ol high -t 1 Comp_map.ncd Comp.ncd Comp.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comp.twx Comp.ncd -o Comp.twr Comp.pcf 
+bitgen -intstyle ise -f Comp.ut Comp.ncd 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Comp.ucf -p xc3s500e-fg320-4 "Comp.ngc" Comp.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Comp_map.ncd Comp.ngd Comp.pcf 
+par -w -intstyle ise -ol high -t 1 Comp_map.ncd Comp.ncd Comp.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comp.twx Comp.ncd -o Comp.twr Comp.pcf -ucf Comp.ucf 
+bitgen -intstyle ise -f Comp.ut Comp.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Comp.ucf -p xc3s500e-fg320-4 "Comp.ngc" Comp.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Comp_map.ncd Comp.ngd Comp.pcf 
+par -w -intstyle ise -ol high -t 1 Comp_map.ncd Comp.ncd Comp.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comp.twx Comp.ncd -o Comp.twr Comp.pcf -ucf Comp.ucf 
+bitgen -intstyle ise -f Comp.ut Comp.ncd 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/Comp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Comp.ucf -p xc3s500e-fg320-4 "Comp.ngc" Comp.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Comp_map.ncd Comp.ngd Comp.pcf 
+par -w -intstyle ise -ol high -t 1 Comp_map.ncd Comp.ncd Comp.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comp.twx Comp.ncd -o Comp.twr Comp.pcf -ucf Comp.ucf 
+bitgen -intstyle ise -f Comp.ut Comp.ncd 

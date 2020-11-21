@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 14 10:42:34 2020
+# Process ID: 6576
+# Log file: C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/prestamo/Desktop/Nueva carpeta/Comparador/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property pulltype NONE [get_ports [list Igual]]
+set_property pulltype NONE [get_ports [list Mayor]]
+set_property pulltype NONE [get_ports [list Menor]]
+set_property pulltype PULLUP [get_ports [list A0]]
+set_property pulltype PULLDOWN [get_ports [list A1]]
+set_property pulltype PULLUP [get_ports [list A1]]
+set_property pulltype PULLUP [get_ports [list B0]]
+set_property pulltype PULLUP [get_ports [list B1]]
+save_constraints

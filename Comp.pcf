@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Oct 14 10:45:22 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Mayor" LOCATE = SITE "D5" LEVEL 1;
+COMP "Igual" LOCATE = SITE "B4" LEVEL 1;
+COMP "A0" LOCATE = SITE "N17" LEVEL 1;
+COMP "A1" LOCATE = SITE "H18" LEVEL 1;
+COMP "B0" LOCATE = SITE "L14" LEVEL 1;
+COMP "B1" LOCATE = SITE "L13" LEVEL 1;
+COMP "Menor" LOCATE = SITE "F7" LEVEL 1;
+SCHEMATIC END;
+
